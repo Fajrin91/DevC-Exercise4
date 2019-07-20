@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planetloka - Tempati Planet Favorit-mu</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Judul Site-->
+    <header class="judul">
+        <h1>PlanetLoka</h1>
+        <h4>Temukan Planet Favoritmu</h4>
+    </header>
+    <!--Navigasi-->
+    <nav class="navigasi">
+        <ul class='nav justify-content-center'>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="cari" href="#">Cari</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hubungi Kami</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Cari Planet</h2>
+        <input type="search" class="tabelpencari" data-table="tableplanet" placeholder="Cari..." />
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Diameter</th>
+                    <th>Iklim</th>
+                    <th>Populasi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alderaan</td>
+                    <td>12500</td>
+                    <td>temperate</td>
+                    <td>2000000000</td>
+                </tr>
+                <tr>
+                    <td>Yavin IV</td>
+                    <td>10200</td>
+                    <td>temperate, tropical</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>Hoth</td>
+                    <td>7200</td>
+                    <td>frozen</td>
+                    <td>unknown</td>
+                </tr>
+                <tr>
+                    <td>Dagobah</td>
+                    <td>8900</td>
+                    <td>murky</td>
+                    <td>unknown</td>
+                </tr>
+                <tr>
+                    <td>Bespin</td>
+                    <td>118000</td>
+                    <td>temperate</td>
+                    <td>6000000</td>
+                </tr>
+                <tr>
+                    <td>Endor</td>
+                    <td>4900</td>
+                    <td>temperate</td>
+                    <td>30000000</td>
+                </tr>
+                <tr>
+                    <td>Naboo</td>
+                    <td>12120</td>
+                    <td>temperate</td>
+                    <td>4500000000</td>
+                </tr>
+                <tr>
+                    <td>Coruscant</td>
+                    <td>12240</td>
+                    <td>temperate</td>
+                    <td>1000000000000</td>
+                </tr>
+                <tr>
+                    <td>Kamino</td>
+                    <td>19720</td>
+                    <td>temperate</td>
+                    <td>1000000000</td>
+                </tr>
+                <tr>
+                    <td>Geonosis</td>
+                    <td>11370</td>
+                    <td>temperate, arid</td>
+                    <td>100000000000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" async="" src="filter.js"></script>
+</body>
+
+</html>
